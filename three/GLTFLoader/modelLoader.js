@@ -7,7 +7,7 @@ let object;
 
 export function modelLoader(scene, renderer, canvasFrame, objToRender, camera) {
     loader.load(
-        `public/models/${objToRender}/scene.gltf`,
+        `models/${objToRender}/scene.gltf`,
         function (gltf) {
             object = gltf.scene;
 
