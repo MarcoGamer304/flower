@@ -6,6 +6,6 @@ const renderer = new WebGLRenderer({
     alpha: true
 });
 
-renderer.setSize( window.innerWidth, window.innerWidth, true );
+renderer.setSize( 400, 400, true );
 
 export default renderer;
